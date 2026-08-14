@@ -1,0 +1,44 @@
+2.1 How many logs are ingested from the month of March, 2022?
+serach: index=win_eventlogs  under evet you will see the answer
+Answer: 13959
+
+2.2 Imposter Alert: There seems to be an imposter account observed in the logs, what is the name of that user?
+index=win_eventlogs UserName="*"| rare limit=20 UserName
+Answer: Amel1a
+
+2.3 Which user from the HR department was observed to be running scheduled tasks?
+index=win_eventlogs schtasks
+under command line users you will see the answer 
+Answer:  Chris.fort
+
+2.4 Which user from the HR department executed a system process (LOLBIN) to download a payload from a file-sharing host.
+index=win_eventlogs HostName="*HR*"
+index=win_eventlogs HostName="*HR*"| rare limit=20 CommandLine
+statistic(20) ->certutil.exe  ->new search
+ANSWER: haroon
+
+2.5 To bypass the security controls, which system process (lolbin) was used to download a payload from the internet?
+the same way 2.4 
+Answer: certutil.exe
+
+2.6 What was the date that this binary was executed by the infected host? format (YYYY-MM-DD)
+Also answered in question 2.4
+Answer: 2022–03–04
+
+2.7 Which third-party site was accessed to download the malicious payload?
+Also answered in 2.4…
+Answer: controlc.com
+
+2.8 What is the name of the file that was saved on the host machine from the C2 server during the post-exploitation phase?
+Also answered in question 2.4
+Answer: benign.exe
+
+2.9 The suspicious file downloaded from the C2 server contained malicious content with the pattern THM{……….}; what is that pattern?
+Grap the flsag from this https://controlc.com/e4d11035
+Answer:THM{KJ&*H^B0}
+
+2.10 What is the URL that the infected host connected to?
+
+Again, reference question 2.4:
+
+Answer: https://controlc.com/e4d11035

@@ -1,0 +1,15 @@
+5.1 What is the Event ID for the File Created rule associated with the test?
+Navigate to: Application and Service Logs > Microsoft > Windows > Sysmon > Operational
+Answer: 11
+
+
+5.2 Under the Software Restriction Policies, what is the default security level assigned to all policies?
+Open Local Security Policy
+Go to: Security Settings > Software Restriction Policies.
+Click “Security Levels” in the left panel.
+Answer: Unrestricted
+
+
+5.3 Find the Audit Policy folder under Local Policies. What setting has been assigned to the policy Audit logon events?
+Navigate to: Local Policies > Audit Policy.
+Answer: Failure

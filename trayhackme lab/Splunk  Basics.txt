@@ -1,0 +1,19 @@
+
+3, Which component is used to collect and send data over the Splunk instance?
+ forwarder
+ 
+4.1 In the Add Data tab, which option is used to collect 
+ data from files and ports?
+ Monitor
+ 
+5.2 How many log events by the user Maleena are captured?
+  60
+
+5.3 What is the name associated with IP 107.14.182.38?
+Source_ip="107.14.182.38"
+
+5.4 What is the number of events that originated 
+from all countries except France?
+Source_Country!="France"
+5.5 How many VPN Events were observed by the IP 107.3.206.58?
+Source_ip="107.3.206.58"

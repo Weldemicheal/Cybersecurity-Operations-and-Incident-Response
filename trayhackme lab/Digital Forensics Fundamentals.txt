@@ -1,0 +1,11 @@
+
+Using exiftool or any similar tool, try to find where the kidnappers took the image they attached to their document. What is the name of the street?
+run: exiftool letter-image.jpg
+you will see 51°30'51.9"N 0°05'38.7"W
+ Answer Milk street
+
+What is the model name of the camera used to take this photo?
+
+Answer: Canon EOS R6
+
+

@@ -1,0 +1,14 @@
+What is the term for a set of characters that can be used to give an attribution to a file?
+
+Note: The answer is expecting the singular noun of this term.
+
+Answer: Hash
+
+What is the IP address of the adversary?
+fiter HTTP
+Answer: 3.250.38.141
+What is the SHA-256 hash value of the value of the executable on the Desktop?
+sha256sum packetcapture.pcapng
+
+sha256sum ~/Desktop/dropper.exe
+463f1b1e11d4ca4c7a0c9aac540513ff7e681d9e5144bda2af24b86e438d3f4f

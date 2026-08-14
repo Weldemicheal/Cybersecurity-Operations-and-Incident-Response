@@ -1,0 +1,45 @@
+Question 1: What’s the version and year of the Windows machine?
+systeminfo
+Get-ComputerInfo
+Answer: Windows Server 2016
+
+
+Which user logged in last?
+run: query user
+
+Answer: Administrator
+
+When did John log onto the system last?
+Ran: net user John
+Answer:  03/02/2019 5:48:32 PM
+
+
+Question 4: What IP does the system connect to when it first starts?
+run: regedit
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+Answer: regedit
+
+Question 5: What two accounts had administrative privileges (other than the Administrator user)?
+net localgroup administrators
+Answer: Guest, Jenny
+
+Question 6: Whats the name of the scheduled task that is malicous?
+Get-Scheduledtask
+taskschd.msc
+Answer:: Clean file system
+
+
+
+Question 7: What file was the task trying to run daily?
+run taskschd.msc under action you will see the answer
+Answer:  nc.ps1
+
+Question 8:What port did this file listen locally for?
+the same as Question 7 run taskschd.msc under action you will see the answer
+Answer 1348
+
+Question 9: When did Jenny last logon?
+net user  Jenny
+ Answer: Never 
+ 
+ Question 10:At what date did the compromise take place?

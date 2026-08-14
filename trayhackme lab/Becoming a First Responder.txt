@@ -1,0 +1,18 @@
+5.3 What BCP metric is used to describe the amount of time required to recover the hardware of our system?
+Answer:Recovery Time Objective
+5.4 What BCP metric is used to describe the average amount of time required to recover our system?
+Answer: Mean Time to Repair
+
+6. What time format should be used in our incident notes to ensure that all times match?
+Answer: UTC
+
+7. What is the value of the flag you receive after responding to the incident?
+
+Answer: THM{I.am.ready.to.become.a.first.responder}
+
+Preserve the Evidence
+Raise the Alarm Bell
+Isolate the Incident
+Invoke BCP
+Document the Actions
+Hand Over

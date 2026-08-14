@@ -1,0 +1,17 @@
+2.1 What is triggered after an event or group of events point at a harmful activity?
+Answer: alert
+
+6.1 What was the name of the malicious email sender?
+Answer: Jeff Johnson
+
+6.2 What was the threat vector? (Question Hint Email Attachment/URL)
+Answer: Email Attachment
+
+6.3 How many devices downloaded the email attachment?
+answer: 3
+
+6.4 How many devices executed the file?
+Answer:1
+
+What is the flag found at the end of the exercise? 
+THM{My_First_Incident_Response}

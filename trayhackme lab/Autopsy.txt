@@ -1,0 +1,51 @@
+2.1 What is the file extension of the Autopsy files?
+Answer: .aut
+
+3.1 What is the disk image name of the “e01” format?
+Answer: EnCase 
+
+5.2 What is the number of the detected “Removed” files?
+We can find this in the Results > Extracted Company > Recycle Bin:
+Answer: 10
+
+5.3 What is the filename found under the “Interesting Files” section?
+We can find this under Results > Interesting Items > Cloud Storage>Interesting file:
+
+
+
+6.3 Generate an HTML report as shown in the task and view the “Case Summary” section.
+What is the job number of the “Interesting Files Identifier” module?
+Go to Report Navigation Interesting Files Identifier
+
+What is the name of an Installed Program with the version number of 6.2.0.2962?
+Go to Report Navigation and find the Installed Program
+
+7.2 A user has a Password Hint. What is the value?
+Click Operating System User Account > Password Hint:
+IAMAN
+
+7.3 Numerous SECRET files were accessed from a network drive. What was the IP address?
+Run a keyword search using “secret” and click on either of the (secret_project) files:
+Answer: 10.11.11.128
+7.4 What web search term has the most entries?
+
+If you expand the Results > Extracted Content > Web Search tree and sort by Text you’ll be able to discern the most searched term:
+Answer: information leakage cases
+
+7.5 What was the web search conducted on 3/25/2015 21:46:44?
+
+On that same screen, sort by Date Accessed this time:
+answer: anti-forensic tools
+
+7.6 What MD5 hash value of the binary is listed as an Interesting File?
+Navigate to the Interesting Files section and find the binary under the downloads folder, click the metadata tab:
+Answeer:fe18b02e890f7a789c576be8abccdc99
+
+7.7 What self-assuring message did the ‘Informant’ write for himself on a Sticky Note? (no spaces)
+
+Run a keyword search for “stickynote” and scroll down in the text box:
+Answer: Tomorrow… Everything will be OK…
+
+8.2 The majority of file events occurred on what date? (MONTH DD, YYYY)
+
+I sorted by Counts then right clicked the highest count, and the events will give you the answer:

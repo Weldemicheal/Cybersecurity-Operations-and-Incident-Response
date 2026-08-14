@@ -1,0 +1,65 @@
+What is the technique ID of "Exploit Public-Facing Application"?
+https://attack.mitre.org/techniques/T1190/
+
+Answer: T1190
+
+How many MITRE ATT&CK techniques are attributed to APT33?
+
+
+Task 6: STRIDE Framework
+
+Insecure web application search function leading to
+SQL injection:- Tampering and information disclosure
+
+insecure AWS infrastructure(EC2, S3, RDS)
+with out load balancers
+ Information diclosure, Denial of service
+
+
+mail server with no logging enable
+spoffing, Repudiation
+
+
+unpatched workstation
+tampering, elevtion of privileges
+
+
+Task 7: PASTA Framework
+4. Provide the flag for the simulated threat modelling exercise.
+
+First go to the rooms in this order
+1, strategic planing
+2, system architecture
+3, software Develoment
+4, information security 
+5, strategic planing
+
+
+1, What should be the top priority for the online 
+banking platform,as mentioned by the Business Analyst?
+ - protecting customers personal and financial data
+ 
+2,According to the System Architect, what are the
+primary technical assets of the online banking system?
+ - Amazon EC2, RDS, and S3 serice
+ 
+3, According to the Security Engineer, which type of 
+threat is NOT considered for the online banking platform?
+  - User registration, account management, fund transfer, 
+4, Which vulnerability was mentioned by the Security 
+Engineer as a potential issue for the online banking platform?
+ - cloud infrastructure misconfiguration
+ 
+ According to the Security Engineer, which type of threat 
+is NOT considered for the online banking platform?
+ - Social Engineering attacks
+ 
+According to the Security Engineer, which mitigation 
+strategy does match the identified threats?
+ - Account lockout
+ 
+In the "Risk and Impact Analysis" phase, what potential consequence of a successful 
+attack was mentioned by the Business Analyst?
+ - financial loss and significat reputational damage
+ 
+

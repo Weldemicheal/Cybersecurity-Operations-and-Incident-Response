@@ -1,0 +1,6 @@
+1,Weaponization was done using - Powershell
+2, Delivery was accomplished through - spearphishing
+3, Exploitation,  - exploit public-facing applications
+4, Installation done by - hijacking the DLLs
+5, C2 achieved using  - fallback channels
+6, Exfil was the data - from the local system

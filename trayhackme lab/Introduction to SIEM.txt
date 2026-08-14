@@ -1,0 +1,16 @@
+----Task 6: Lab Work----
+Click on Start Suspicious Activity
+cudominer.exe
+
+6.2 Find the event that caused the alert, 
+which user was responsible for the process execution?
+
+Chris
+
+6.3 What is the hostname of the suspect user?
+
+HR-02
+
+True-Positive
+
+THM{000_SIEM_INTRO}

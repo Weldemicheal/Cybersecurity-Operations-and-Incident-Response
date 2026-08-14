@@ -1,0 +1,10 @@
+----- Practical Lab-----
+1, What is the IP address of the machine that tried to connect to the subject machine using SSH?
+
+sudo snort -r /etc/snort/Intro_to_IDS.pcap -A console -c /etc/snort/snort.conf
+
+Answer: 10.11.90.211
+What other rule message besides the 
+SSH message is detected in the PCAP file?
+
+ Ping Detected [**] [Priority: 0] {ICMP} 10.11.90.211 -> 10.10.161.151

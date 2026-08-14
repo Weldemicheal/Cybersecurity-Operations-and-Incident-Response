@@ -1,0 +1,37 @@
+Q1: How would you describe the experience of an overload of security events being triggered within a SOC?
+Answer: Alert Fatigue
+
+Task 3: Overcoming SOC Challenges with SOAR
+The act of connecting and integrating security tools and systems into seamless workflows is known as?
+Answer: Orchestration
+
+Q2: What do we call a predefined list of actions to handle an incident?
+Answer: Playbook
+
+Task 4: Building SOAR Playbooks
+
+Q2: From where is the CVE Patching playbook fetching the new CVEs?
+Answer: Advisory lists
+
+Q3: In the CVE Patching playbook, if the assets are found vulnerable even after the patch is deployed, what does the SOC develop next?
+Mitigation plan
+
+Task 5: Threat Intel Workflow Practical
+Case Management Settings
+Delete Case Ticket  man all other auto
+
+Threat Intelligence Feeds 
+Discard Old AlertsCalls  man all other auto
+
+Incident Data Extraction
+Analyst Extraction man all other auto
+
+
+Reputation Checks
+
+Reputation Results Output auto all other mun
+
+Course of Action
+Analyst Approve COA man all other auto
+
+Answer: THM{AUT0M@T1N6_S3CUR1T¥}
